@@ -1,125 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document>
-    <name>cengkareng</name>
-    <description/>
-    <Style id="line-FF0000-5000-nodesc-normal">
-      <LineStyle>
-        <color>ff0000ff</color>
-        <width>5</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-FF0000-5000-nodesc-highlight">
-      <LineStyle>
-        <color>ff0000ff</color>
-        <width>7.5</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-FF0000-5000-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Folder>
-      <name>MynameKML file polygon</name>
-      <Placemark>
-        <name>Line 1</name>
-        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            106.73147,-6.12169,0
-            106.7375,-6.12605,0
-            106.74831,-6.13236,0
-            106.75552,-6.13646,0
-            106.76394,-6.13919,0
-            106.77178,-6.14139,0
-            106.77458,-6.14158,0
-            106.77526,-6.14397,0
-            106.772,-6.15011,0
-            106.76788,-6.15779,0
-            106.76617,-6.16035,0
-            106.7569,-6.1583,0
-            106.75346,-6.15796,0
-            106.74831,-6.15813,0
-            106.74797,-6.15557,0
-            106.7478,-6.16155,0
-            106.74796,-6.16546,0
-            106.74454,-6.16667,0
-            106.73767,-6.16974,0
-            106.73292,-6.1721,0
-            106.7308,-6.1752,0
-            106.72651,-6.17861,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Line 2</name>
-        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            106.72598,-6.17852,0
-            106.72445,-6.18237,0
-            106.72428,-6.18629,0
-            106.72274,-6.18715,0
-            106.71711,-6.18817,0
-            106.71621,-6.18646,0
-            106.70996,-6.18205,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Line 3</name>
-        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            106.70967,-6.18142,0
-            106.69888,-6.1764,0
-            106.70334,-6.17486,0
-            106.70866,-6.17298,0
-            106.70939,-6.17486,0
-            106.71484,-6.16735,0
-            106.7181,-6.16564,0
-            106.71624,-6.15489,0
-            106.71987,-6.15331,0
-            106.71793,-6.14449,0
-            106.72119,-6.14073,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-      <Placemark>
-        <name>Line 4</name>
-        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>
-            106.72134,-6.14012,0
-            106.71868,-6.13304,0
-            106.72092,-6.12912,0
-            106.71942,-6.12818,0
-            106.72102,-6.12656,0
-            106.72239,-6.12741,0
-            106.72382,-6.12568,0
-            106.72052,-6.12027,0
-            106.72375,-6.11855,0
-            106.72617,-6.12195,0
-            106.73149,-6.12093,0
-          </coordinates>
-        </LineString>
-      </Placemark>
-    </Folder>
-  </Document>
-</kml>
+<!-- created by GmapGIS.com -->
+<Document><name>MynameKML file polygon </name><description>Some descrition</description><Style id="polyStyID_0"><LineStyle><color>FF0000FF</color><width>5</width></LineStyle><PolyStyle><color>660088ff</color></PolyStyle> </Style><Placemark><name>Line 1</name><description><![CDATA[]]></description><styleUrl>#polyStyID_0</styleUrl><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><LineString><coordinates>
+106.70827,-6.09573,0.0
+106.69398,-6.09681,0.0
+106.69167,-6.10676,0.0
+106.69708,-6.10929,0.0
+106.69647,-6.11256,0.0
+106.68961,-6.11427,0.0
+106.68961,-6.1215,0.0
+106.68722,-6.12719,0.0
+106.69098,-6.13782,0.0
+106.68802,-6.14044,0.0
+106.68789,-6.15523,0.0
+106.68908,-6.16322,0.0
+106.68926,-6.17332,0.0
+106.70506,-6.1781,0.0
+106.71535,-6.18527,0.0
+106.71776,-6.18902,0.0
+106.71673,-6.19346,0.0
+106.72359,-6.19176,0.0
+106.72497,-6.19619,0.0
+106.72326,-6.20094,0.0
+106.72428,-6.20643,0.0
+106.7206,-6.21076,0.0
+106.71845,-6.21802,0.0
+</coordinates></LineString></Placemark><Placemark><name>Line 2</name><description><![CDATA[]]></description><styleUrl>#polyStyID_0</styleUrl><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><LineString><coordinates>
+106.71874,-6.21964,0.0
+106.71818,-6.22492,0.0
+106.7363,-6.22384,0.0
+106.74213,-6.22759,0.0
+106.74479,-6.2309,0.0
+106.77853,-6.22759,0.0
+</coordinates></LineString></Placemark><Placemark><name>Line 3</name><description><![CDATA[]]></description><styleUrl>#polyStyID_0</styleUrl><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><LineString><coordinates>
+106.77917,-6.22817,0.0
+106.77853,-6.21538,0.0
+106.78471,-6.21189,0.0
+106.78437,-6.20685,0.0
+106.79638,-6.20746,0.0
+106.80977,-6.19176,0.0
+106.81046,-6.18083,0.0
+106.79885,-6.16182,0.0
+</coordinates></LineString></Placemark><Placemark><name>Line 4</name><description><![CDATA[]]></description><styleUrl>#polyStyID_0</styleUrl><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><LineString><coordinates>
+106.79874,-6.16059,0.0
+106.81973,-6.16069,0.0
+106.82968,-6.16445,0.0
+106.82386,-6.13825,0.0
+106.81677,-6.13749,0.0
+106.8153,-6.13005,0.0
+106.79957,-6.13404,0.0
+106.80041,-6.14166,0.0
+106.77681,-6.14465,0.0
+106.77475,-6.14192,0.0
+106.75246,-6.13442,0.0
+106.73595,-6.12451,0.0
+106.71854,-6.1072,0.0
+106.70986,-6.09584,0.0
+</coordinates></LineString></Placemark></Document></kml>
