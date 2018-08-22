@@ -1,59 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-<!-- created by GmapGIS.com -->
-<Document><name>MynameKML file polygon </name><description>Some descrition</description><Style id="polyStyID_0"><LineStyle><color>FF0000FF</color><width>5</width></LineStyle><PolyStyle><color>660088ff</color></PolyStyle> </Style><Placemark><name>Line 1</name><description><![CDATA[]]></description><styleUrl>#polyStyID_0</styleUrl><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><LineString><coordinates>
-106.70827,-6.09573,0.0
-106.69398,-6.09681,0.0
-106.69167,-6.10676,0.0
-106.69708,-6.10929,0.0
-106.69647,-6.11256,0.0
-106.68961,-6.11427,0.0
-106.68961,-6.1215,0.0
-106.68722,-6.12719,0.0
-106.69098,-6.13782,0.0
-106.68802,-6.14044,0.0
-106.68789,-6.15523,0.0
-106.68908,-6.16322,0.0
-106.68926,-6.17332,0.0
-106.70506,-6.1781,0.0
-106.71535,-6.18527,0.0
-106.71776,-6.18902,0.0
-106.71673,-6.19346,0.0
-106.72359,-6.19176,0.0
-106.72497,-6.19619,0.0
-106.72326,-6.20094,0.0
-106.72428,-6.20643,0.0
-106.7206,-6.21076,0.0
-106.71845,-6.21802,0.0
-</coordinates></LineString></Placemark><Placemark><name>Line 2</name><description><![CDATA[]]></description><styleUrl>#polyStyID_0</styleUrl><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><LineString><coordinates>
-106.71874,-6.21964,0.0
-106.71818,-6.22492,0.0
-106.7363,-6.22384,0.0
-106.74213,-6.22759,0.0
-106.74479,-6.2309,0.0
-106.77853,-6.22759,0.0
-</coordinates></LineString></Placemark><Placemark><name>Line 3</name><description><![CDATA[]]></description><styleUrl>#polyStyID_0</styleUrl><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><LineString><coordinates>
-106.77917,-6.22817,0.0
-106.77853,-6.21538,0.0
-106.78471,-6.21189,0.0
-106.78437,-6.20685,0.0
-106.79638,-6.20746,0.0
-106.80977,-6.19176,0.0
-106.81046,-6.18083,0.0
-106.79885,-6.16182,0.0
-</coordinates></LineString></Placemark><Placemark><name>Line 4</name><description><![CDATA[]]></description><styleUrl>#polyStyID_0</styleUrl><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><LineString><coordinates>
-106.79874,-6.16059,0.0
-106.81973,-6.16069,0.0
-106.82968,-6.16445,0.0
-106.82386,-6.13825,0.0
-106.81677,-6.13749,0.0
-106.8153,-6.13005,0.0
-106.79957,-6.13404,0.0
-106.80041,-6.14166,0.0
-106.77681,-6.14465,0.0
-106.77475,-6.14192,0.0
-106.75246,-6.13442,0.0
-106.73595,-6.12451,0.0
-106.71854,-6.1072,0.0
-106.70986,-6.09584,0.0
-</coordinates></LineString></Placemark></Document></kml>
+  <Document>
+    <name>Peta tanpa judul</name>
+    <description/>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>MynameKML file polygon</name>
+      <Placemark>
+        <name>Line 1</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            106.70618,-6.09615,0
+            106.70986,-6.09549,0
+            106.71913,-6.10642,0
+            106.72943,-6.11973,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 2</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            106.72978,-6.11996,0
+            106.73111,-6.12136,0
+            106.73029,-6.12501,0
+            106.72682,-6.12171,0
+            106.72308,-6.12502,0
+            106.72508,-6.12767,0
+            106.71896,-6.1339,0
+            106.72016,-6.14037,0
+            106.71819,-6.14479,0
+            106.71913,-6.15318,0
+            106.71595,-6.15535,0
+            106.7169,-6.16684,0
+            106.71416,-6.16837,0
+            106.71106,-6.17384,0
+            106.70906,-6.17433,0
+            106.70855,-6.17197,0
+            106.70197,-6.17759,0
+            106.69802,-6.17657,0
+            106.69684,-6.17523,0
+            106.69093,-6.1732,0
+            106.68905,-6.17203,0
+            106.68938,-6.16647,0
+            106.68892,-6.16308,0
+            106.68963,-6.16026,0
+            106.68802,-6.15924,0
+            106.68755,-6.15111,0
+            106.68652,-6.14568,0
+            106.68617,-6.14329,0
+            106.68907,-6.14041,0
+            106.69115,-6.13851,0
+            106.68882,-6.13337,0
+            106.6871,-6.12961,0
+            106.68769,-6.12617,0
+            106.68932,-6.12033,0
+            106.68943,-6.11598,0
+            106.68932,-6.11424,0
+            106.6939,-6.11308,0
+            106.69673,-6.11278,0
+            106.69716,-6.11137,0
+            106.69613,-6.10916,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 3</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            106.70609,-6.09657,0
+            106.70535,-6.0952,0
+            106.70282,-6.09635,0
+            106.70145,-6.09635,0
+            106.69802,-6.09652,0
+            106.6963,-6.09618,0
+            106.69345,-6.09668,0
+            106.69127,-6.0962,0
+            106.68743,-6.09719,0
+            106.68806,-6.10437,0
+            106.68892,-6.10659,0
+            106.69287,-6.10693,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 4</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            106.69352,-6.10699,0
+            106.69587,-6.10881,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
