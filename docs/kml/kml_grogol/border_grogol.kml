@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>grogol</name>
+    <description/>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>grogol</name>
+      <Placemark>
+        <name>Line 1</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            106.78856,-6.14337,0
+            106.77771,-6.14439,0
+            106.77594,-6.14502,0
+            106.77441,-6.14678,0
+            106.76805,-6.15788,0
+            106.76934,-6.15976,0
+            106.76953,-6.16109,0
+            106.77929,-6.16511,0
+            106.78024,-6.16522,0
+            106.7805,-6.16616,0
+            106.77964,-6.16667,0
+            106.78016,-6.17375,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 2</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            106.78032,-6.17392,0
+            106.78009,-6.17985,0
+            106.7829,-6.18544,0
+            106.78805,-6.18518,0
+            106.79185,-6.18401,0
+            106.79539,-6.17961,0
+            106.79732,-6.17878,0
+            106.80518,-6.17377,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 3</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            106.80538,-6.1735,0
+            106.80061,-6.16637,0
+            106.79898,-6.16364,0
+            106.7946,-6.1534,0
+            106.79168,-6.14794,0
+            106.78928,-6.14316,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 4</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            106.78861,-6.14333,0
+            106.78921,-6.14318,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
