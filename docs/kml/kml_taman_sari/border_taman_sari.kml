@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>taman sari</name>
+    <description/>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>taman sari</name>
+      <Placemark>
+        <name>Line 1</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            106.81062,-6.1311,0
+            106.81234,-6.13731,0
+            106.81131,-6.14013,0
+            106.8126,-6.14124,0
+            106.81061,-6.14264,0
+            106.81106,-6.14653,0
+            106.81226,-6.15003,0
+            106.81218,-6.1518,0
+            106.81131,-6.15395,0
+            106.81081,-6.16084,0
+            106.81986,-6.15968,0
+            106.82479,-6.16086,0
+            106.82865,-6.16266,0
+            106.82789,-6.16098,0
+            106.82745,-6.15997,0
+            106.82745,-6.1524,0
+            106.82669,-6.14813,0
+            106.82582,-6.14636,0
+            106.82453,-6.14371,0
+            106.82208,-6.13891,0
+            106.82154,-6.13685,0
+            106.8205,-6.13637,0
+            106.81693,-6.13713,0
+            106.81509,-6.13031,0
+            106.81384,-6.13023,0
+            106.81021,-6.13142,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
