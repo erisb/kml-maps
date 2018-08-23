@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>palmerah</name>
+    <description/>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>palmerah</name>
+      <Placemark>
+        <name>Line 1</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            106.80547,-6.17365,0
+            106.8096,-6.17989,0
+            106.81054,-6.1886,0
+            106.80723,-6.18894,0
+            106.80445,-6.1973,0
+            106.80367,-6.19807,0
+            106.80316,-6.19901,0
+            106.7997,-6.20069,0
+            106.7993,-6.20191,0
+            106.79742,-6.20344,0
+            106.79621,-6.20724,0
+            106.79067,-6.20745,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 2</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            106.79037,-6.20752,0
+            106.78909,-6.2089,0
+            106.7878,-6.20737,0
+            106.78342,-6.20711,0
+            106.78214,-6.19606,0
+            106.78264,-6.19041,0
+            106.7833,-6.18811,0
+            106.78333,-6.18546,0
+            106.78818,-6.18529,0
+            106.79127,-6.18429,0
+            106.79492,-6.18041,0
+            106.79756,-6.17863,0
+            106.80179,-6.17597,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 3</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            106.80195,-6.17582,0
+            106.80522,-6.17375,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
