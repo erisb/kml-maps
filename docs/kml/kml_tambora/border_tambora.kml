@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>tambora</name>
+    <description/>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>tambora</name>
+      <Placemark>
+        <name>Line 1</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            106.81026,-6.13099,0
+            106.80135,-6.13332,0
+            106.80041,-6.13535,0
+            106.80067,-6.14213,0
+            106.79219,-6.14272,0
+            106.79082,-6.14245,0
+            106.78938,-6.14218,0
+            106.79595,-6.15549,0
+            106.7987,-6.16129,0
+            106.80067,-6.16018,0
+            106.80136,-6.15941,0
+            106.80136,-6.15664,0
+            106.80204,-6.1601,0
+            106.80262,-6.16118,0
+            106.80418,-6.16189,0
+            106.81065,-6.16099,0
+            106.81114,-6.1545,0
+            106.81208,-6.15165,0
+            106.81209,-6.15049,0
+            106.8108,-6.14525,0
+            106.81046,-6.14256,0
+            106.81225,-6.14091,0
+            106.8114,-6.14004,0
+            106.8114,-6.13906,0
+            106.81216,-6.13691,0
+            106.81047,-6.13163,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 2</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            106.81047,-6.13157,0
+            106.81026,-6.1309,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
