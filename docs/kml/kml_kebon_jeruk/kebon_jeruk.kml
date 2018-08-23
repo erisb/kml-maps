@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>kebon jeruk</name>
+    <description/>
+    <Style id="line-FF0000-5000-nodesc-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FF0000-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FF0000-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FF0000-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FF0000-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>kebon jeruk</name>
+      <Placemark>
+        <name>Line 1</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            106.76724,-6.15811,0
+            106.76886,-6.1589,0
+            106.76977,-6.16155,0
+            106.77835,-6.16445,0
+            106.78024,-6.1653,0
+            106.78007,-6.18083,0
+            106.78333,-6.18817,0
+            106.78247,-6.1909,0
+            106.78368,-6.21326,0
+            106.78127,-6.21377,0
+            106.77831,-6.21377,0
+            106.7774,-6.21614,0
+            106.7787,-6.21838,0
+            106.7787,-6.22674,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 2</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            106.77891,-6.2274,0
+            106.76612,-6.22725,0
+            106.76308,-6.21752,0
+            106.76171,-6.2151,0
+            106.76428,-6.21377,0
+            106.76617,-6.21155,0
+            106.76451,-6.20875,0
+            106.76359,-6.19841,0
+            106.76281,-6.19672,0
+            106.76088,-6.19747,0
+            106.75664,-6.19271,0
+            106.75762,-6.19025,0
+            106.7593,-6.18988,0
+            106.75655,-6.18339,0
+            106.75793,-6.18288,0
+            106.75391,-6.17956,0
+            106.75014,-6.18047,0
+            106.74763,-6.17793,0
+            106.74848,-6.17184,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 3</name>
+        <styleUrl>#line-FF0000-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            106.74853,-6.17126,0
+            106.75501,-6.16598,0
+            106.75655,-6.16462,0
+            106.75655,-6.16213,0
+            106.75835,-6.16076,0
+            106.75923,-6.15926,0
+            106.76617,-6.16086,0
+            106.76668,-6.15779,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
